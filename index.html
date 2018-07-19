@@ -71,28 +71,30 @@ $(function() {
     <h2>Setup</h2>
     
     <ul>
-      <li>- Install Python 3.6: <a href="https://www.python.org/downloads/release/python-360">https://www.python.org/downloads/release/python-360/</a></li>
-      <li>- <span style="font-family: 'Courier New', Courier, monospace">pip install -r requirements.txt</span> to install Python dependencies</li>
+      <li>Install Python 3.6: <a href="https://www.python.org/downloads/release/python-360">https://www.python.org/downloads/release/python-360/</a></li>
+      <li><span style="font-family: 'Courier New', Courier, monospace">pip install -r requirements.txt</span> to install Python dependencies</li>
     </ul>
     
     <h2>Manual</h2>
     
     <p>This project aims to detect genuine and organic influencers on Instagram. The model is data-based and uses a machine learning approach :</p>
     
-    <li>- Simple metrics such as followers, following, media count, mean engagement rate, post frequency, etc.</li>
-    <li>- Comment quality score: is the audience engaged ?</li>
-    <li>- Metrics over the feed images' quality : unity of contrast and colorfulness, redundancy of colors, etc.</li>
+    <ul>
+      <li>Simple metrics such as followers, following, media count, mean engagement rate, post frequency, etc.</li>
+      <li>Comment quality score: is the audience engaged ?</li>
+      <li>Metrics over the feed images' quality : unity of contrast and colorfulness, redundancy of colors, etc.</li>
+    </ul>
     
     <h2>Script files</h2>
     <ul>
-      <li>- <span style="font-family: 'Courier New', Courier, monospace">annotation_tool.py</span> helped me to annotate influencers streamed in the database.</li>
-      <li>- <span style="font-family: 'Courier New', Courier, monospace">classifier.py</span> lets you analyze an Instagram profile and classifies it among inlfuencer/not influencer.</li>
-      <li>- <span style="font-family: 'Courier New', Courier, monospace">main.py</span> is the entrypoint. Currently, it lauches <span style="font-family: 'Courier New', Courier, monospace">streamer.py</span>.</li>
-      <li>- <span style="font-family: 'Courier New', Courier, monospace">sql_client.py</span> is the SQL client. It processes and creates SQL requests to the database.</li>
-      <li>- <span style="font-family: 'Courier New', Courier, monospace">streamer.py</span> streams Instagram content into the database.</li>
-      <li>- <span style="font-family: 'Courier New', Courier, monospace">train.py</span> trains the model with data available in the database.</li>
-      <li>- <span style="font-family: 'Courier New', Courier, monospace">user.py</span> processes user infomation and extracts feature for machine learning.</li>
-      <li>- <span style="font-family: 'Courier New', Courier, monospace">utils.py</span> gathers all utility functions.</li>
+      <li><span style="font-family: 'Courier New', Courier, monospace">annotation_tool.py</span> helped me to annotate influencers streamed in the database.</li>
+      <li><span style="font-family: 'Courier New', Courier, monospace">classifier.py</span> lets you analyze an Instagram profile and classifies it among inlfuencer/not influencer.</li>
+      <li><span style="font-family: 'Courier New', Courier, monospace">main.py</span> is the entrypoint. Currently, it lauches <span style="font-family: 'Courier New', Courier, monospace">streamer.py</span>.</li>
+      <li><span style="font-family: 'Courier New', Courier, monospace">sql_client.py</span> is the SQL client. It processes and creates SQL requests to the database.</li>
+      <li><span style="font-family: 'Courier New', Courier, monospace">streamer.py</span> streams Instagram content into the database.</li>
+      <li><span style="font-family: 'Courier New', Courier, monospace">train.py</span> trains the model with data available in the database.</li>
+      <li><span style="font-family: 'Courier New', Courier, monospace">user.py</span> processes user infomation and extracts feature for machine learning.</li>
+      <li><span style="font-family: 'Courier New', Courier, monospace">utils.py</span> gathers all utility functions.</li>
     </ul>
     
     <h2>Contact</h2>
