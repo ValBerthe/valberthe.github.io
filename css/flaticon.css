@@ -1,15 +1,16 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 04/07/2018 13:02
+  	Creation date: 04/02/2020 21:20
   	*/
 
 @font-face {
   font-family: "Flaticon";
   src: url("../fonts/Flaticon.eot");
   src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff2") format("woff2"),
        url("../fonts/Flaticon.woff") format("woff"),
        url("../fonts/Flaticon.ttf") format("truetype"),
-       url("..fonts/Flaticon.svg#Flaticon") format("svg");
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -23,14 +24,20 @@
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
-	font-family: Flaticon;
-	font-style: normal;
-	margin-left: 0px;
+  font-family: Flaticon;
+        font-size: normal;
+font-style: normal;
+margin-left: normal;
 }
 
-.flaticon-idea-1:before { content: "\f100"; }
-.flaticon-idea:before { content: "\f101"; }
-.flaticon-discuss-issue:before { content: "\f102"; }
-.flaticon-process:before { content: "\f103"; }
-.flaticon-development:before { content: "\f104"; }
-.flaticon-seo:before { content: "\f105"; }
+.flaticon-big-data:before { content: "\f100"; }
+.flaticon-structure:before { content: "\f101"; }
+.flaticon-big-data-1:before { content: "\f102"; }
+.flaticon-data-analytics:before { content: "\f103"; }
+.flaticon-big-data-2:before { content: "\f104"; }
+.flaticon-system:before { content: "\f105"; }
+.flaticon-big-data-3:before { content: "\f106"; }
+.flaticon-data-analytics-1:before { content: "\f107"; }
+.flaticon-management:before { content: "\f108"; }
+.flaticon-team:before { content: "\f109"; }
+.flaticon-success:before { content: "\f10a"; }
