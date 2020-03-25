@@ -73,3 +73,7 @@ $(function() {
 $('#name').focus(function() {
   $('#success').html('');
 });
+
+function sendMail() {
+  window.open('mailto:valentin.berthelot5@gmail.com?subject=Prenons%20contact%20!');
+}
